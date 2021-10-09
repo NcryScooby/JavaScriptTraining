@@ -7,3 +7,14 @@ function calcularNota (nota){
 
 console.log(calcularNota(6));
 console.log(resultado);
+
+//--------------------------------------------//
+
+let nota1 = 2, nota2 = 5;
+
+function calculadora(){
+    total = nota1 * nota2;
+    return total;
+}
+
+console.log(calculadora())
