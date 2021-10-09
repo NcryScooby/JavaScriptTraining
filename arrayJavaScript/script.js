@@ -4,7 +4,7 @@ console.log(familia);
 console.log(familia[2]);
 console.log(familia[0]);
 
-let colegas = ['Bianca', 'Menin', 'Moyses', 'Eduardo'];
+let colegas = ['Carlos', 'Lucas', 'Joao', 'Alexandre'];
 
 console.log(colegas.length);
 console.log(colegas[3]);
