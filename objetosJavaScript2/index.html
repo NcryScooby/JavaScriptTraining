@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos JavaScript</title>
+</head>
+<body>
+    <h1>Objetos JavaScript</h1>
+
+    <script>
+
+        function pessoa (nome, altura, idade, sexo){
+            this.nome = nome;
+            this.altura = altura;
+            this.idade = idade;
+            this.sexo = sexo;
+        }
+
+
+        var p1 = new pessoa('Fabrício', 1.75, 21, 'Masculino');
+        var p2 = new pessoa('Lucas', 1.90, 33, 'Masculino');
+
+        console.log(p1.nome, p1.altura, p1.idade, p1.sexo);
+        console.log(p2.nome, p2.altura, p2.idade, p2.sexo);
+
+
+    </script>
+
+</body>
+</html>
